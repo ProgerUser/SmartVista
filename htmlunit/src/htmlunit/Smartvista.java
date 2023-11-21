@@ -63,11 +63,11 @@ public class Smartvista {
 			loadXLSFile.click();
 			UnexpectedPage downloadPage = (UnexpectedPage) window.getEnclosedPage();
 			InputStream xlsx = downloadPage.getInputStream();
-			
+
 			File targetFile = new File("D:\\Users\\saidp\\Documents\\smarta.xlsx");
 
-		    FileUtils.copyInputStreamToFile(xlsx, targetFile);
-			//byte[] buf = ByteStreams.toByteArray(xlsx);
+			FileUtils.copyInputStreamToFile(xlsx, targetFile);
+			// byte[] buf = ByteStreams.toByteArray(xlsx);
 
 		} catch (Exception e) {
 			System.out.println(getStackTrace(e));
