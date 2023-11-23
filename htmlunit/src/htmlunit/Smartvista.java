@@ -68,7 +68,7 @@ public class Smartvista {
 
 		    FileUtils.copyInputStreamToFile(xlsx, targetFile);
 			//byte[] buf = ByteStreams.toByteArray(xlsx);
-
+		    
 		} catch (Exception e) {
 			System.out.println(getStackTrace(e));
 		}
