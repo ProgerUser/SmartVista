@@ -1,6 +1,7 @@
 package htmlunit;
 
 import java.io.ByteArrayInputStream;
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -14,6 +15,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 import java.sql.Types;
 import java.util.Properties;
+
+import org.apache.log4j.Logger;
+import org.apache.log4j.xml.DOMConfigurator;
 
 import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.UnexpectedPage;
@@ -31,7 +35,10 @@ public class Smartvista {
 
 	static Properties prop = new Properties();
 
+	Logger logger = Logger.getLogger(Smartvista.class);
+
 	public static void main(String[] args) {
+
 		Smartvista sfve = new Smartvista();
 		sfve.RunOper();
 	}
@@ -58,19 +65,23 @@ public class Smartvista {
 			conn = DriverManager.getConnection("jdbc:oracle:thin:@" + connectionURL_, props);
 			conn.setAutoCommit(false);
 		} catch (SQLException | ClassNotFoundException e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 	}
 
 	@SuppressWarnings("resource")
 	public void RunOper() {
+
+		String log4jConfigFile = System.getProperty("user.dir") + File.separator + "log4j.xml";
+		DOMConfigurator.configure(log4jConfigFile);
+		logger.info("Run SVFE: " + Thread.currentThread().getName());
+
 		try (InputStream input = new FileInputStream("config.properties")) {
 			prop.load(input);
 		} catch (IOException e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 
-		InputStream xlsx = null;
 		String login = "Astan";
 		String password = "1234567";
 		String cardNumber_t = "9990080816422815";
@@ -109,36 +120,35 @@ public class Smartvista {
 			loadXLSFile.click();
 			UnexpectedPage downloadPage = (UnexpectedPage) window.getEnclosedPage();
 
-			xlsx = downloadPage.getInputStream();
-
-			{
+			try (InputStream xlsx = downloadPage.getInputStream()) {
 				dbConnect(prop.getProperty("password"), prop.getProperty("login"), prop.getProperty("url"));
-
-				CallableStatement callStmt = conn.prepareCall("{ call Z_SB_CALC_CONTACT.LOAD(?,?,?,?)}");
+				// Call Stored Function
+				CallableStatement callStmt = conn.prepareCall("{ ? = call sbra_svfe_xlsx(?)}");
 				callStmt.registerOutParameter(1, Types.VARCHAR);
-				callStmt.registerOutParameter(4, Types.VARCHAR);
-
 				byte[] buf = ByteStreams.toByteArray(xlsx);
-				// add parameters
 				callStmt.setBlob(2, new ByteArrayInputStream(buf), buf.length);
-				// catch
 				try {
 					callStmt.execute();
-				} catch (Exception e) {
+				} catch (SQLException e) {
+					logger.error(e.getMessage(), e);
 					conn.rollback();
 					callStmt.close();
 				}
+				// Возврат ошибки
+				String ret = callStmt.getString(1);
+				if (!ret.equals("OK")) {
+					conn.rollback();
+					logger.error("SQLException = " + ret);
+				}else {
+					conn.commit();
+				}
+
 			}
 			dbDisconnect();
 
 		} catch (Exception e) {
 			dbDisconnect();
-			try {
-				xlsx.close();
-			} catch (IOException e1) {
-				e1.printStackTrace();
-			}
-			System.out.println(getStackTrace(e));
+			logger.error(e.getMessage(), e);
 		}
 	}
 
@@ -152,7 +162,7 @@ public class Smartvista {
 				conn.close();
 			}
 		} catch (SQLException e) {
-			e.printStackTrace();
+			logger.error(e.getMessage(), e);
 		}
 	}
 
