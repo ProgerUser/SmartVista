@@ -34,7 +34,6 @@ import com.google.common.io.ByteStreams;
 public class Smartvista {
 
 	static Properties prop = new Properties();
-
 	Logger logger = Logger.getLogger(Smartvista.class);
 
 	public static void main(String[] args) {
@@ -74,6 +73,7 @@ public class Smartvista {
 
 		String log4jConfigFile = System.getProperty("user.dir") + File.separator + "log4j.xml";
 		DOMConfigurator.configure(log4jConfigFile);
+
 		logger.info("Run SVFE: " + Thread.currentThread().getName());
 
 		try (InputStream input = new FileInputStream("config.properties")) {
@@ -82,46 +82,64 @@ public class Smartvista {
 			logger.error(e.getMessage(), e);
 		}
 
-		String login = "Astan";
-		String password = "1234567";
+		try {
+			dbConnect(prop.getProperty("password"), prop.getProperty("login"), prop.getProperty("url"));
+		} catch (UnknownHostException e) {
+			logger.error(e.getMessage(), e);
+		}
+
+		String login = prop.getProperty("login_svfe");
+		String password = prop.getProperty("password_svfe");
+
 		String cardNumber_t = "9990080816422815";
 		String dateFrom_t = "01/11/2000 00:00";
 		String dateTo_t = "25/11/2023 23:59";
+
 		int timeForWhait = 5000 * 2;
 
 		try {
 			WebClient webClient = new WebClient(BrowserVersion.CHROME);
-			String webPageURl = "http://185.30.105.112:7001/SVFE2/login.jsf";
-
+			// Получить URL
+			String webPageURl = prop.getProperty("svfe_url");
+			// Страница
 			HtmlPage signUpPage = webClient.getPage(webPageURl);
-
-			HtmlForm form = signUpPage.getHtmlElementById("LoginForm");
-			HtmlTextInput userField = form.getInputByName("LoginForm:Login");
+			// Находим форму
+			HtmlForm form = signUpPage.getHtmlElementById(prop.getProperty("site_login_form"));
+			// Поле login
+			HtmlTextInput userField = form.getInputByName(prop.getProperty("site_login_form_login"));
 			userField.setValueAttribute(login);
-			HtmlInput pwField = form.getInputByName("LoginForm:Password");
-			pwField.setValueAttribute(password);
-			HtmlSubmitInput submitButton = form.getInputByName("LoginForm:submit");
-
+			// Пароль
+			HtmlInput pwdField = form.getInputByName(prop.getProperty("site_login_form_pwd"));
+			pwdField.setValueAttribute(password);
+			// Кнопка поиска
+			HtmlSubmitInput submitButton = form.getInputByName(prop.getProperty("site_loginform_submin"));
+			// После входа
 			HtmlPage pageAfterLogon = submitButton.click();
-			HtmlForm userForm = pageAfterLogon.getHtmlElementById("UserForm");
-			HtmlTextInput cardNumber = userForm.getInputByName("UserForm:hpan");
-			cardNumber.setValueAttribute(cardNumber_t);
-			HtmlInput dateFrom = pageAfterLogon.getHtmlElementById("UserForm:j_id96InputDate");
+			// Находим форму
+			HtmlForm userForm = pageAfterLogon.getHtmlElementById(prop.getProperty("site_userform"));
+			/// Поле со счетом
+			HtmlTextInput accNumber = userForm.getInputByName(prop.getProperty("site_card"));
+			accNumber.setValueAttribute(cardNumber_t);
+			// Дата с
+			HtmlInput dateFrom = pageAfterLogon.getHtmlElementById(prop.getProperty("site_dt1"));
 			dateFrom.setValueAttribute(dateFrom_t);
-			HtmlInput dateTo = pageAfterLogon.getHtmlElementById("UserForm:j_id99InputDate");
+			// Дата по
+			HtmlInput dateTo = pageAfterLogon.getHtmlElementById(prop.getProperty("site_dt2"));
 			dateTo.setValueAttribute(dateTo_t);
-			HtmlInput searchbutton = pageAfterLogon.getHtmlElementById("UserForm:searchButton");
-
+			// Кнопка поиска
+			HtmlInput searchbutton = pageAfterLogon.getHtmlElementById(prop.getProperty("site_searchbtn"));
+			// После нажатия поиска
 			HtmlPage pageAfterClick = (HtmlPage) searchbutton.click();
 			webClient.waitForBackgroundJavaScript(timeForWhait);
-			HtmlAnchor loadXLSFile = pageAfterLogon.getHtmlElementById("UserForm:loadXLSFile");
-
+			// Нажать на кнопку скачать xlsx
+			HtmlAnchor loadXLSFile = pageAfterLogon.getHtmlElementById(prop.getProperty("site_loadXLSFile"));
+			// Окно скачивания
 			WebWindow window = pageAfterClick.getEnclosingWindow();
 			loadXLSFile.click();
 			UnexpectedPage downloadPage = (UnexpectedPage) window.getEnclosedPage();
 
+			// Обработать файл в вида InputStream
 			try (InputStream xlsx = downloadPage.getInputStream()) {
-				dbConnect(prop.getProperty("password"), prop.getProperty("login"), prop.getProperty("url"));
 				// Call Stored Function
 				CallableStatement callStmt = conn.prepareCall("{ ? = call sbra_svfe_xlsx(?)}");
 				callStmt.registerOutParameter(1, Types.VARCHAR);
@@ -139,10 +157,9 @@ public class Smartvista {
 				if (!ret.equals("OK")) {
 					conn.rollback();
 					logger.error("SQLException = " + ret);
-				}else {
+				} else {
 					conn.commit();
 				}
-
 			}
 			dbDisconnect();
 
