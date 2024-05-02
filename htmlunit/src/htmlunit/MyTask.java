@@ -12,8 +12,12 @@ import java.net.UnknownHostException;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Types;
+import java.text.SimpleDateFormat;
+import java.util.Date;
 import java.util.Properties;
 
 import org.apache.log4j.Logger;
@@ -60,65 +64,94 @@ public class MyTask {
 		String login = prop.getProperty("login_svfe");
 		String password = prop.getProperty("password_svfe");
 
-		String cardNumber_t = "9990080816422815";
-		String dateFrom_t = "01/11/2000 00:00";
-		String dateTo_t = "25/11/2023 23:59";
+		SimpleDateFormat dateFormat = new SimpleDateFormat("dd/MM/yyyy");
+		Date currentDate = new Date();
+		String currentDateTime = dateFormat.format(currentDate);
+
+		String dateFrom_t = currentDateTime + " 00:00";
+		String dateTo_t = currentDateTime + " 23:59";
 
 		int timeForWhait = 5000 * 2;
 
 		try {
-			WebClient webClient = new WebClient(BrowserVersion.CHROME);
-			String webPageURl = prop.getProperty("svfe_url");
+			PreparedStatement prp = conn
+					.prepareStatement(
+							"SELECT CPLCNUM, IPLAAGRID, IPLCID, DPLCEND, IPLPID, IPLCPRIMARY\r\n"
+							+ "  FROM sbra_svfe_acclst t\r\n");
 
-			HtmlPage signUpPage = webClient.getPage(webPageURl);
+			ResultSet rs = prp.executeQuery();
 
-			HtmlForm form = signUpPage.getHtmlElementById("LoginForm");
-			HtmlTextInput userField = form.getInputByName("LoginForm:Login");
-			userField.setValueAttribute(login);
-			HtmlInput pwField = form.getInputByName("LoginForm:Password");
-			pwField.setValueAttribute(password);
-			HtmlSubmitInput submitButton = form.getInputByName("LoginForm:submit");
+			while (rs.next()) {
 
-			HtmlPage pageAfterLogon = submitButton.click();
-			HtmlForm userForm = pageAfterLogon.getHtmlElementById("UserForm");
-			HtmlTextInput cardNumber = userForm.getInputByName("UserForm:hpan");
-			cardNumber.setValueAttribute(cardNumber_t);
-			HtmlInput dateFrom = pageAfterLogon.getHtmlElementById("UserForm:j_id96InputDate");
-			dateFrom.setValueAttribute(dateFrom_t);
-			HtmlInput dateTo = pageAfterLogon.getHtmlElementById("UserForm:j_id99InputDate");
-			dateTo.setValueAttribute(dateTo_t);
-			HtmlInput searchbutton = pageAfterLogon.getHtmlElementById("UserForm:searchButton");
+				String cardNumber_t = rs.getString("CPLCNUM");
 
-			HtmlPage pageAfterClick = (HtmlPage) searchbutton.click();
-			webClient.waitForBackgroundJavaScript(timeForWhait);
-			HtmlAnchor loadXLSFile = pageAfterLogon.getHtmlElementById("UserForm:loadXLSFile");
+				System.out.println(cardNumber_t);
 
-			WebWindow window = pageAfterClick.getEnclosingWindow();
-			loadXLSFile.click();
-			UnexpectedPage downloadPage = (UnexpectedPage) window.getEnclosedPage();
+				WebClient webClient = new WebClient(BrowserVersion.CHROME);
+				// Получить URL
+				String webPageURl = prop.getProperty("svfe_url");
+				// Страница
+				HtmlPage signUpPage = webClient.getPage(webPageURl);
+				// Находим форму
+				HtmlForm form = signUpPage.getHtmlElementById(prop.getProperty("site_login_form"));
+				// Поле login
+				HtmlTextInput userField = form.getInputByName(prop.getProperty("site_login_form_login"));
+				userField.setValueAttribute(login);
+				// Пароль
+				HtmlInput pwdField = form.getInputByName(prop.getProperty("site_login_form_pwd"));
+				pwdField.setValueAttribute(password);
+				// Кнопка поиска
+				HtmlSubmitInput submitButton = form.getInputByName(prop.getProperty("site_loginform_submin"));
+				// После входа
+				HtmlPage pageAfterLogon = submitButton.click();
+				// Находим форму
+				HtmlForm userForm = pageAfterLogon.getHtmlElementById(prop.getProperty("site_userform"));
+				/// Поле со счетом
+				HtmlTextInput accNumber = userForm.getInputByName(prop.getProperty("site_card"));
+				accNumber.setValueAttribute(cardNumber_t);
+				// Дата с
+				HtmlInput dateFrom = pageAfterLogon.getHtmlElementById(prop.getProperty("site_dt1"));
+				dateFrom.setValueAttribute(dateFrom_t);
+				// Дата по
+				HtmlInput dateTo = pageAfterLogon.getHtmlElementById(prop.getProperty("site_dt2"));
+				dateTo.setValueAttribute(dateTo_t);
+				// Кнопка поиска
+				HtmlInput searchbutton = pageAfterLogon.getHtmlElementById(prop.getProperty("site_searchbtn"));
+				// После нажатия поиска
+				HtmlPage pageAfterClick = (HtmlPage) searchbutton.click();
+				webClient.waitForBackgroundJavaScript(timeForWhait);
+				// Нажать на кнопку скачать excel
+				HtmlAnchor loadXLSFile = pageAfterLogon.getHtmlElementById(prop.getProperty("site_loadXLSFile"));
+				// Окно скачивания
+				WebWindow window = pageAfterClick.getEnclosingWindow();
+				loadXLSFile.click();
+				UnexpectedPage downloadPage = (UnexpectedPage) window.getEnclosedPage();
 
-			try (InputStream xlsx = downloadPage.getInputStream()) {
-				// Call Stored Function
-				CallableStatement callStmt = conn.prepareCall("{ ? = call sbra_svfe_xlsx(?)}");
-				callStmt.registerOutParameter(1, Types.VARCHAR);
-				byte[] buf = ByteStreams.toByteArray(xlsx);
-				callStmt.setBlob(2, new ByteArrayInputStream(buf), buf.length);
-				try {
-					callStmt.execute();
-				} catch (SQLException e) {
-					logger.error(e.getMessage(), e);
-					conn.rollback();
-					callStmt.close();
-				}
-				// Возврат ошибки
-				String ret = callStmt.getString(1);
-				if (!ret.equals("OK")) {
-					conn.rollback();
-					logger.error("SQLException = " + ret);
-				} else {
-					conn.commit();
+				// Обработать файл в вида InputStream
+				try (InputStream xlsx = downloadPage.getInputStream()) {
+					// Call Stored Function
+					CallableStatement callStmt = conn.prepareCall("{ ? = call sbra_svfe_xlsx(?)}");
+					callStmt.registerOutParameter(1, Types.VARCHAR);
+					byte[] buf = ByteStreams.toByteArray(xlsx);
+					callStmt.setBlob(2, new ByteArrayInputStream(buf), buf.length);
+					try {
+						callStmt.execute();
+					} catch (SQLException e) {
+						logger.error(getStackTrace(e), e);
+						conn.rollback();
+						callStmt.close();
+					}
+					// Возврат ошибки
+					String ret = callStmt.getString(1);
+					if (!ret.equals("OK")) {
+						conn.rollback();
+						logger.error("SQLException = " + ret);
+					} else {
+						conn.commit();
+					}
 				}
 			}
+			// Отключить сессию
 			dbDisconnect();
 
 		} catch (Exception e) {

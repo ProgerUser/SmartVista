@@ -12,6 +12,8 @@ import java.net.UnknownHostException;
 import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Types;
 import java.util.Properties;
@@ -23,11 +25,15 @@ import com.gargoylesoftware.htmlunit.BrowserVersion;
 import com.gargoylesoftware.htmlunit.UnexpectedPage;
 import com.gargoylesoftware.htmlunit.WebClient;
 import com.gargoylesoftware.htmlunit.WebWindow;
+import com.gargoylesoftware.htmlunit.html.DomElement;
 import com.gargoylesoftware.htmlunit.html.HtmlAnchor;
 import com.gargoylesoftware.htmlunit.html.HtmlForm;
 import com.gargoylesoftware.htmlunit.html.HtmlInput;
 import com.gargoylesoftware.htmlunit.html.HtmlPage;
 import com.gargoylesoftware.htmlunit.html.HtmlSubmitInput;
+import com.gargoylesoftware.htmlunit.html.HtmlTable;
+import com.gargoylesoftware.htmlunit.html.HtmlTableCell;
+import com.gargoylesoftware.htmlunit.html.HtmlTableRow;
 import com.gargoylesoftware.htmlunit.html.HtmlTextInput;
 import com.google.common.io.ByteStreams;
 
@@ -39,7 +45,8 @@ public class Smartvista {
 	public static void main(String[] args) {
 
 		Smartvista sfve = new Smartvista();
-		sfve.RunOper();
+		//sfve.RunOper();
+		sfve.RunUpdateAccOst();
 	}
 
 	/**
@@ -64,7 +71,136 @@ public class Smartvista {
 			conn = DriverManager.getConnection("jdbc:oracle:thin:@" + connectionURL_, props);
 			conn.setAutoCommit(false);
 		} catch (SQLException | ClassNotFoundException e) {
-			logger.error(e.getMessage(), e);
+			logger.error(getStackTrace(e), e);
+		}
+	}
+
+	private static final long BG_JS_WAIT_MS = 5000;
+
+	/**
+	 * @param domElement
+	 * @return
+	 * @throws IOException
+	 */
+	public HtmlPage clickOn(DomElement domElement) throws IOException {
+		HtmlPage htmlPage = domElement.click();
+
+		htmlPage.getWebClient().waitForBackgroundJavaScript(BG_JS_WAIT_MS);
+
+		return htmlPage;
+	}
+
+	@SuppressWarnings("resource")
+	public void RunUpdateAccOst() {
+		try {
+
+			String log4jConfigFile = System.getProperty("user.dir") + File.separator + "log4j.xml";
+			DOMConfigurator.configure(log4jConfigFile);
+
+			logger.info("Run SVFE: " + Thread.currentThread().getName());
+
+			try (InputStream input = new FileInputStream("config.properties")) {
+				prop.load(input);
+			} catch (IOException e) {
+				logger.error(getStackTrace(e), e);
+			}
+
+			try {
+				dbConnect(prop.getProperty("password"), prop.getProperty("login"), prop.getProperty("url"));
+			} catch (UnknownHostException e) {
+				logger.error(getStackTrace(e), e);
+			}
+
+			String login = prop.getProperty("login_svfe");
+			String password = prop.getProperty("password_svfe");
+
+			int timeForWhait = 5000;
+
+			PreparedStatement prp = conn.prepareStatement("SELECT to_char(DT, 'dd/MM/yyyy') || ' 00:00' DATE_FROM,\r\n"
+					+ "       to_char(DT, 'dd/MM/yyyy') || ' 23:59' DATE_TO,\r\n"
+					+ "       to_char(TR_NUM_FE) TR_NUM_FE\r\n" + "  FROM sbra_smart_tranz t where ost is null\r\n" + "");
+			ResultSet rs = prp.executeQuery();
+
+			while (rs.next()) {
+
+				String v_dateFrom = rs.getString("DATE_FROM");
+				String v_dateTo = rs.getString("DATE_TO");
+				String v_utrnno = rs.getString("TR_NUM_FE");
+
+				WebClient webClient = new WebClient(BrowserVersion.CHROME);
+				// Получить URL
+				String webPageURl = prop.getProperty("svfe_url");
+				// Страница
+				HtmlPage signUpPage = webClient.getPage(webPageURl);
+				// Находим форму
+				HtmlForm form = signUpPage.getHtmlElementById(prop.getProperty("site_login_form"));
+				// Поле login
+				HtmlTextInput userField = form.getInputByName(prop.getProperty("site_login_form_login"));
+				userField.setValueAttribute(login);
+				// Пароль
+				HtmlInput pwdField = form.getInputByName(prop.getProperty("site_login_form_pwd"));
+				pwdField.setValueAttribute(password);
+				// Кнопка поиска
+				HtmlSubmitInput submitButton = form.getInputByName(prop.getProperty("site_loginform_submin"));
+				// После входа
+				HtmlPage pageAfterLogon = submitButton.click();
+				// Находим форму
+				HtmlForm userForm = pageAfterLogon.getHtmlElementById(prop.getProperty("site_userform"));
+				/// Поле со счетом
+				HtmlTextInput accNumber = userForm.getInputByName(prop.getProperty("site_utrnno"));
+				accNumber.setValueAttribute(v_utrnno);
+				// Дата с
+				HtmlInput dateFrom = pageAfterLogon.getHtmlElementById(prop.getProperty("site_dt1"));
+				dateFrom.setValueAttribute(v_dateFrom);
+				// Дата по
+				HtmlInput dateTo = pageAfterLogon.getHtmlElementById(prop.getProperty("site_dt2"));
+				dateTo.setValueAttribute(v_dateTo);
+				// Кнопка поиска
+				HtmlInput searchbutton = pageAfterLogon.getHtmlElementById(prop.getProperty("site_searchbtn"));
+				// После нажатия поиска
+				HtmlPage pageAfterClick = (HtmlPage) searchbutton.click();
+				webClient.waitForBackgroundJavaScript(timeForWhait);
+
+				// {02.05.2024}
+				// Выбрать строку
+				HtmlTableRow contentRow = pageAfterClick.getHtmlElementById("UserForm:tiD:n:0");
+				// Получить страницу
+				HtmlPage pageaAfterClickRow = clickOn(contentRow);
+				// Получить таблицу с атрибутами
+				HtmlTable tableWithAttr = pageaAfterClickRow.getHtmlElementById("UserForm:j_id594_shifted");
+				// Получить страницу
+				HtmlPage pageaAfterClickAccOst = clickOn(tableWithAttr);
+				// Получить ячейку с остатком
+				HtmlTableCell accspan = pageaAfterClickAccOst.getHtmlElementById("UserForm:j_id594");
+
+				System.out.println(accspan.asNormalizedText());
+				
+				CallableStatement callStmt = conn.prepareCall("{ ? = call sbra_svfe_xlsx2(?,?)}");
+				callStmt.registerOutParameter(1, Types.VARCHAR);
+				callStmt.setString(2, accspan.asNormalizedText());
+				callStmt.setString(3, v_utrnno);
+				try {
+					callStmt.execute();
+				} catch (SQLException e) {
+					logger.error(getStackTrace(e), e);
+					conn.rollback();
+					callStmt.close();
+				}
+				// Возврат ошибки
+				String ret = callStmt.getString(1);
+				if (!ret.equals("OK")) {
+					conn.rollback();
+					logger.error("SQLException = " + ret);
+				} else {
+					conn.commit();
+				}
+
+			}
+			// Отключить сессию
+			dbDisconnect();
+		} catch (Exception e) {
+			dbDisconnect();
+			logger.error(getStackTrace(e), e);
 		}
 	}
 
@@ -79,25 +215,26 @@ public class Smartvista {
 		try (InputStream input = new FileInputStream("config.properties")) {
 			prop.load(input);
 		} catch (IOException e) {
-			logger.error(e.getMessage(), e);
+			logger.error(getStackTrace(e), e);
 		}
 
 		try {
 			dbConnect(prop.getProperty("password"), prop.getProperty("login"), prop.getProperty("url"));
 		} catch (UnknownHostException e) {
-			logger.error(e.getMessage(), e);
+			logger.error(getStackTrace(e), e);
 		}
 
 		String login = prop.getProperty("login_svfe");
 		String password = prop.getProperty("password_svfe");
 
-		String cardNumber_t = "9990080816422815";
-		String dateFrom_t = "01/11/2000 00:00";
-		String dateTo_t = "25/11/2023 23:59";
+		String cardNumber_t = "9990080835508297";
+		String dateFrom_t = "01/01/2000 00:00";
+		String dateTo_t = "30/11/2024 23:59";
 
-		int timeForWhait = 5000 * 2;
+		int timeForWhait = 15000;
 
 		try {
+
 			WebClient webClient = new WebClient(BrowserVersion.CHROME);
 			// Получить URL
 			String webPageURl = prop.getProperty("svfe_url");
@@ -117,7 +254,7 @@ public class Smartvista {
 			HtmlPage pageAfterLogon = submitButton.click();
 			// Находим форму
 			HtmlForm userForm = pageAfterLogon.getHtmlElementById(prop.getProperty("site_userform"));
-			/// Поле со счетом
+			/// Поле со карте
 			HtmlTextInput accNumber = userForm.getInputByName(prop.getProperty("site_card"));
 			accNumber.setValueAttribute(cardNumber_t);
 			// Дата с
@@ -131,7 +268,8 @@ public class Smartvista {
 			// После нажатия поиска
 			HtmlPage pageAfterClick = (HtmlPage) searchbutton.click();
 			webClient.waitForBackgroundJavaScript(timeForWhait);
-			// Нажать на кнопку скачать xlsx
+
+			// Нажать на кнопку скачать excel
 			HtmlAnchor loadXLSFile = pageAfterLogon.getHtmlElementById(prop.getProperty("site_loadXLSFile"));
 			// Окно скачивания
 			WebWindow window = pageAfterClick.getEnclosingWindow();
@@ -148,7 +286,7 @@ public class Smartvista {
 				try {
 					callStmt.execute();
 				} catch (SQLException e) {
-					logger.error(e.getMessage(), e);
+					logger.error(getStackTrace(e), e);
 					conn.rollback();
 					callStmt.close();
 				}
@@ -161,11 +299,13 @@ public class Smartvista {
 					conn.commit();
 				}
 			}
+
+			// Отключить сессию
 			dbDisconnect();
 
 		} catch (Exception e) {
 			dbDisconnect();
-			logger.error(e.getMessage(), e);
+			logger.error(getStackTrace(e), e);
 		}
 	}
 
@@ -179,7 +319,7 @@ public class Smartvista {
 				conn.close();
 			}
 		} catch (SQLException e) {
-			logger.error(e.getMessage(), e);
+			logger.error(getStackTrace(e), e);
 		}
 	}
 

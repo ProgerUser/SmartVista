@@ -1,999 +1,472 @@
-INFO    2023-11-29 14:44:35,552 [main] htmlunit.Smartvista  - Run SVFE: main
-WARN    2023-11-29 14:44:38,377 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:44:38,377 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:44:38,379 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:44:38,379 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:44:38,381 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:44:38,381 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:44:38,383 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:44:38,383 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:44:38,384 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:44:38,384 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:44:38,385 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:44:38,385 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:44:38,450 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:38,494 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:38,600 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:38,663 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:44:38,663 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:44:38,694 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:44:38,694 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:44:38,761 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,555 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,758 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,817 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,864 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,879 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,888 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,915 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,953 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,962 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:39,971 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,023 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,113 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,125 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,143 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,161 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,174 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,187 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,199 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,209 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,217 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,230 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,240 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,257 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,266 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,302 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,314 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,339 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,389 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,432 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,489 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,510 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,564 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,590 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,598 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,608 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,637 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,647 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,663 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,707 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,725 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,746 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,782 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,792 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,801 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,812 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,834 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:40,943 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:44:40,944 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:44:41,001 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:44:41,001 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:44:41,053 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:41,239 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:44:41,773 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
-WARN    2023-11-29 14:44:44,642 [JS executor for com.gargoylesoftware.htmlunit.WebClient@486be205] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
-INFO    2023-11-29 14:45:53,258 [main] htmlunit.Smartvista  - Run SVFE: main
-WARN    2023-11-29 14:45:56,281 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:45:56,281 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:45:56,282 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:45:56,282 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:45:56,283 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:45:56,283 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:45:56,284 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:45:56,284 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:45:56,285 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:45:56,285 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:45:56,285 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:45:56,285 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:45:56,359 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:56,401 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:56,511 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:56,590 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:45:56,590 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:45:56,621 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:45:56,621 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:45:56,684 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,527 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,769 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,842 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,886 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,906 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,916 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,941 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,963 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,972 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:57,983 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,037 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,126 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,137 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,150 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,158 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,168 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,179 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,193 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,206 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,222 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,235 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,245 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,264 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,275 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,310 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,320 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,345 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,377 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,413 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,471 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,489 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,537 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,602 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,612 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,622 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,652 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,665 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,676 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,724 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,745 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,773 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,805 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,826 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,839 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,850 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:58,883 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:59,187 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:45:59,188 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:45:59,212 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:45:59,212 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:45:59,280 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:59,410 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:45:59,997 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
-WARN    2023-11-29 14:46:04,434 [JS executor for com.gargoylesoftware.htmlunit.WebClient@486be205] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
-INFO    2023-11-29 14:46:57,349 [main] htmlunit.Smartvista  - Run SVFE: main
-WARN    2023-11-29 14:47:00,918 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:47:00,919 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:47:00,920 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:47:00,920 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:47:00,922 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:47:00,923 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:47:00,924 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:47:00,924 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:47:00,925 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:47:00,925 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:47:00,926 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:47:00,927 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:47:01,006 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:01,047 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:01,200 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:01,271 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:47:01,271 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:47:01,301 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:47:01,301 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:47:01,400 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:02,385 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:02,917 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:02,975 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,025 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,050 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,060 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,086 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,113 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,145 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,162 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,222 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,312 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,323 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,333 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,343 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,353 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,363 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,384 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,406 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,418 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,433 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,445 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,464 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,475 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,513 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,524 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,549 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,586 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,628 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,690 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,711 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,756 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,801 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,814 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,830 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,873 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,885 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,897 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,971 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:03,993 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:04,022 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:04,268 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:04,281 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:04,291 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:04,312 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:04,334 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:04,444 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:47:04,444 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:47:04,469 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:47:04,469 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:47:04,569 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:04,691 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:47:05,206 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
-WARN    2023-11-29 14:47:08,216 [JS executor for com.gargoylesoftware.htmlunit.WebClient@486be205] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
-ERROR   2023-11-29 14:48:38,763 [main] com.gargoylesoftware.htmlunit.javascript.DefaultJavaScriptErrorListener  - Error during JavaScript execution
+ERROR   2024-03-05 21:02:02,719 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id96InputDate1]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id96InputDate1]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 16:14:00,297 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 16:33:39,149 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 16:36:19,266 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 16:38:16,575 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 17:11:59,732 [main] htmlunit.Smartvista  - java.lang.ClassCastException: com.gargoylesoftware.htmlunit.html.HtmlTable cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlTableBody
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.lang.ClassCastException: com.gargoylesoftware.htmlunit.html.HtmlTable cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlTableBody
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 17:13:19,525 [main] htmlunit.Smartvista  - java.lang.ClassCastException: com.gargoylesoftware.htmlunit.html.HtmlTable cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlTableBody
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.lang.ClassCastException: com.gargoylesoftware.htmlunit.html.HtmlTable cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlTableBody
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 17:31:23,202 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 17:43:40,488 [main] htmlunit.Smartvista  - java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 17:44:33,245 [main] htmlunit.Smartvista  - java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 17:48:13,898 [main] htmlunit.Smartvista  - java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 17:54:36,938 [main] htmlunit.Smartvista  - java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.clickOn(Smartvista.java)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.clickOn(Smartvista.java)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 17:58:13,616 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id579_lbl]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id579_lbl]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 18:00:49,746 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id579_cell]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id579_cell]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 18:01:33,704 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id579_shifted]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id579_shifted]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 18:21:25,230 [main] com.gargoylesoftware.htmlunit.javascript.DefaultJavaScriptErrorListener  - Error during JavaScript execution
 ======= EXCEPTION START ========
-Exception class=[java.lang.RuntimeException]
-com.gargoylesoftware.htmlunit.ScriptException: Exception invoking submit
+Exception class=[net.sourceforge.htmlunit.corejs.javascript.EvaluatorException]
+com.gargoylesoftware.htmlunit.ScriptException: invalid return (injected script#1)
 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:1001)
 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.fireEvent(EventTarget.java:173)
-	at com.gargoylesoftware.htmlunit.html.DomElement.lambda$fireEvent$0(DomElement.java:1496)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.html.DomElement.fireEvent(DomElement.java:1496)
-	at com.gargoylesoftware.htmlunit.html.DomElement.doClickFireClickEvent(DomElement.java:1164)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1095)
-	at com.gargoylesoftware.htmlunit.html.HtmlAnchor.click(HtmlAnchor.java:87)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1035)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:921)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:898)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:875)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:830)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:796)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:842)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:964)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:929)
 	at htmlunit.Smartvista.RunOper(Smartvista.java)
 	at htmlunit.Smartvista.main(Smartvista.java)
-Caused by: java.lang.RuntimeException: Exception invoking submit
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:238)
-	at net.sourceforge.htmlunit.corejs.javascript.FunctionObject.call(FunctionObject.java:423)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1876)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
-	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventHandler.call(EventHandler.java:74)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
-	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
+Caused by: net.sourceforge.htmlunit.corejs.javascript.EvaluatorException: invalid return (injected script#1)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$HtmlUnitErrorReporter.error(HtmlUnitContextFactory.java:435)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addError(Parser.java:257)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:336)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:327)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.returnOrYield(Parser.java:1911)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1208)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1458)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.ifStatement(Parser.java:1293)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1158)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:632)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:562)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.parse(Context.java:2549)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileImpl(Context.java:2480)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1448)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$TimeoutContext.compileString(HtmlUnitContextFactory.java:221)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1436)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$1.doRun(JavaScriptEngine.java:821)
 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
-	... 24 more
-Caused by: java.lang.RuntimeException: java.net.SocketTimeoutException: Read timed out
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2511)
-	at com.gargoylesoftware.htmlunit.html.HtmlForm.submit(HtmlForm.java:194)
-	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLFormElement.submit(HTMLFormElement.java:330)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:215)
-	... 34 more
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:193)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1588)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1510)
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2502)
-	... 41 more
+	... 10 more
 Enclosed exception: 
-java.lang.RuntimeException: Exception invoking submit
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:238)
-	at net.sourceforge.htmlunit.corejs.javascript.FunctionObject.call(FunctionObject.java:423)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1876)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
-	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventHandler.call(EventHandler.java:74)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
-	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
+net.sourceforge.htmlunit.corejs.javascript.EvaluatorException: invalid return (injected script#1)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$HtmlUnitErrorReporter.error(HtmlUnitContextFactory.java:435)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addError(Parser.java:257)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:336)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:327)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.returnOrYield(Parser.java:1911)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1208)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1458)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.ifStatement(Parser.java:1293)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1158)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:632)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:562)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.parse(Context.java:2549)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileImpl(Context.java:2480)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1448)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$TimeoutContext.compileString(HtmlUnitContextFactory.java:221)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1436)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$1.doRun(JavaScriptEngine.java:821)
 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.fireEvent(EventTarget.java:173)
-	at com.gargoylesoftware.htmlunit.html.DomElement.lambda$fireEvent$0(DomElement.java:1496)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.html.DomElement.fireEvent(DomElement.java:1496)
-	at com.gargoylesoftware.htmlunit.html.DomElement.doClickFireClickEvent(DomElement.java:1164)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1095)
-	at com.gargoylesoftware.htmlunit.html.HtmlAnchor.click(HtmlAnchor.java:87)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1035)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:921)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:898)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:875)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:830)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:796)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:842)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:964)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:929)
 	at htmlunit.Smartvista.RunOper(Smartvista.java)
 	at htmlunit.Smartvista.main(Smartvista.java)
-Caused by: java.lang.RuntimeException: java.net.SocketTimeoutException: Read timed out
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2511)
-	at com.gargoylesoftware.htmlunit.html.HtmlForm.submit(HtmlForm.java:194)
-	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLFormElement.submit(HTMLFormElement.java:330)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:215)
-	... 34 more
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:193)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1588)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1510)
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2502)
-	... 41 more
 == CALLING JAVASCRIPT ==
-function () {
-    [native code]
-}
+if (RichFaces.isTabActive('UserForm:j_id594_lbl')) return false;
+if (!RichFaces.onTabChange(event, 'UserForm:tabPanel', 'UserForm:j_id594')) return false;
+A4J.AJAX.Submit('UserForm', event, {
+    'similarityGroupingId': 'UserForm:j_id594',
+    'parameters': {
+        'UserForm:j_id594': 'UserForm:j_id594'
+    }
+});
+return false;
+this.onclick = null;
 ======= EXCEPTION END ========
-ERROR   2023-11-29 14:48:38,933 [main] htmlunit.Smartvista  - Exception invoking submit
-======= EXCEPTION START ========
-Exception class=[java.lang.RuntimeException]
-com.gargoylesoftware.htmlunit.ScriptException: Exception invoking submit
+ERROR   2024-05-02 18:21:25,352 [main] htmlunit.Smartvista  - ======= EXCEPTION START ========
+Exception class=[net.sourceforge.htmlunit.corejs.javascript.EvaluatorException]
+com.gargoylesoftware.htmlunit.ScriptException: invalid return (injected script#1)
 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:1001)
 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.fireEvent(EventTarget.java:173)
-	at com.gargoylesoftware.htmlunit.html.DomElement.lambda$fireEvent$0(DomElement.java:1496)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.html.DomElement.fireEvent(DomElement.java:1496)
-	at com.gargoylesoftware.htmlunit.html.DomElement.doClickFireClickEvent(DomElement.java:1164)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1095)
-	at com.gargoylesoftware.htmlunit.html.HtmlAnchor.click(HtmlAnchor.java:87)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1035)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:921)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:898)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:875)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:830)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:796)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:842)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:964)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:929)
 	at htmlunit.Smartvista.RunOper(Smartvista.java)
 	at htmlunit.Smartvista.main(Smartvista.java)
-Caused by: java.lang.RuntimeException: Exception invoking submit
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:238)
-	at net.sourceforge.htmlunit.corejs.javascript.FunctionObject.call(FunctionObject.java:423)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1876)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
-	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventHandler.call(EventHandler.java:74)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
-	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
+Caused by: net.sourceforge.htmlunit.corejs.javascript.EvaluatorException: invalid return (injected script#1)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$HtmlUnitErrorReporter.error(HtmlUnitContextFactory.java:435)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addError(Parser.java:257)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:336)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:327)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.returnOrYield(Parser.java:1911)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1208)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1458)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.ifStatement(Parser.java:1293)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1158)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:632)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:562)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.parse(Context.java:2549)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileImpl(Context.java:2480)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1448)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$TimeoutContext.compileString(HtmlUnitContextFactory.java:221)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1436)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$1.doRun(JavaScriptEngine.java:821)
 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
-	... 24 more
-Caused by: java.lang.RuntimeException: java.net.SocketTimeoutException: Read timed out
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2511)
-	at com.gargoylesoftware.htmlunit.html.HtmlForm.submit(HtmlForm.java:194)
-	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLFormElement.submit(HTMLFormElement.java:330)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:215)
-	... 34 more
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:193)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1588)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1510)
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2502)
-	... 41 more
+	... 10 more
 Enclosed exception: 
-java.lang.RuntimeException: Exception invoking submit
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:238)
-	at net.sourceforge.htmlunit.corejs.javascript.FunctionObject.call(FunctionObject.java:423)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1876)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
-	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventHandler.call(EventHandler.java:74)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
-	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
+net.sourceforge.htmlunit.corejs.javascript.EvaluatorException: invalid return (injected script#1)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$HtmlUnitErrorReporter.error(HtmlUnitContextFactory.java:435)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addError(Parser.java:257)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:336)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:327)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.returnOrYield(Parser.java:1911)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1208)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1458)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.ifStatement(Parser.java:1293)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1158)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:632)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:562)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.parse(Context.java:2549)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileImpl(Context.java:2480)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1448)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$TimeoutContext.compileString(HtmlUnitContextFactory.java:221)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1436)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$1.doRun(JavaScriptEngine.java:821)
 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.fireEvent(EventTarget.java:173)
-	at com.gargoylesoftware.htmlunit.html.DomElement.lambda$fireEvent$0(DomElement.java:1496)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.html.DomElement.fireEvent(DomElement.java:1496)
-	at com.gargoylesoftware.htmlunit.html.DomElement.doClickFireClickEvent(DomElement.java:1164)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1095)
-	at com.gargoylesoftware.htmlunit.html.HtmlAnchor.click(HtmlAnchor.java:87)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1035)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:921)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:898)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:875)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:830)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:796)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:842)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:964)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:929)
 	at htmlunit.Smartvista.RunOper(Smartvista.java)
 	at htmlunit.Smartvista.main(Smartvista.java)
-Caused by: java.lang.RuntimeException: java.net.SocketTimeoutException: Read timed out
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2511)
-	at com.gargoylesoftware.htmlunit.html.HtmlForm.submit(HtmlForm.java:194)
-	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLFormElement.submit(HTMLFormElement.java:330)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:215)
-	... 34 more
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:193)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1588)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1510)
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2502)
-	... 41 more
 == CALLING JAVASCRIPT ==
-function () {
-    [native code]
-}
+if (RichFaces.isTabActive('UserForm:j_id594_lbl')) return false;
+if (!RichFaces.onTabChange(event, 'UserForm:tabPanel', 'UserForm:j_id594')) return false;
+A4J.AJAX.Submit('UserForm', event, {
+    'similarityGroupingId': 'UserForm:j_id594',
+    'parameters': {
+        'UserForm:j_id594': 'UserForm:j_id594'
+    }
+});
+return false;
+this.onclick = null;
 ======= EXCEPTION END ========
-INFO    2023-11-29 14:50:06,734 [main] htmlunit.Smartvista  - Run SVFE: main
-WARN    2023-11-29 14:50:09,980 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:50:09,980 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:50:09,981 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:50:09,981 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:50:09,983 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:50:09,983 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:50:09,984 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:50:09,984 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:50:09,985 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:50:09,986 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:50:09,986 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:50:09,986 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:50:10,059 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:10,095 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:10,274 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:10,372 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:50:10,372 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:50:10,408 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:50:10,408 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:50:10,525 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:11,599 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:11,801 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:11,869 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:11,916 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:11,933 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:11,943 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:11,969 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:11,994 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,011 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,022 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,077 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,192 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,222 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,232 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,245 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,256 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,266 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,294 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,304 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,317 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,336 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,362 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,379 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,393 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,447 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,465 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,490 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,528 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,566 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,632 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,655 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,719 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,749 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,758 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,769 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,809 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,827 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,838 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:12,910 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:13,002 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:13,025 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:13,059 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:13,074 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:13,085 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:13,101 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:13,131 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:13,232 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:50:13,232 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:50:13,250 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:50:13,251 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:50:13,315 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:13,427 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:50:14,017 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
-WARN    2023-11-29 14:50:17,053 [JS executor for com.gargoylesoftware.htmlunit.WebClient@486be205] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
-ERROR   2023-11-29 14:51:47,468 [main] com.gargoylesoftware.htmlunit.javascript.DefaultJavaScriptErrorListener  - Error during JavaScript execution
+
 ======= EXCEPTION START ========
-Exception class=[java.lang.RuntimeException]
-com.gargoylesoftware.htmlunit.ScriptException: Exception invoking submit
+Exception class=[net.sourceforge.htmlunit.corejs.javascript.EvaluatorException]
+com.gargoylesoftware.htmlunit.ScriptException: invalid return (injected script#1)
 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:1001)
 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.fireEvent(EventTarget.java:173)
-	at com.gargoylesoftware.htmlunit.html.DomElement.lambda$fireEvent$0(DomElement.java:1496)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.html.DomElement.fireEvent(DomElement.java:1496)
-	at com.gargoylesoftware.htmlunit.html.DomElement.doClickFireClickEvent(DomElement.java:1164)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1095)
-	at com.gargoylesoftware.htmlunit.html.HtmlAnchor.click(HtmlAnchor.java:87)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1035)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:921)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:898)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:875)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:830)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:796)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:842)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:964)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:929)
 	at htmlunit.Smartvista.RunOper(Smartvista.java)
 	at htmlunit.Smartvista.main(Smartvista.java)
-Caused by: java.lang.RuntimeException: Exception invoking submit
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:238)
-	at net.sourceforge.htmlunit.corejs.javascript.FunctionObject.call(FunctionObject.java:423)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1876)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
-	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventHandler.call(EventHandler.java:74)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
-	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
+Caused by: net.sourceforge.htmlunit.corejs.javascript.EvaluatorException: invalid return (injected script#1)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$HtmlUnitErrorReporter.error(HtmlUnitContextFactory.java:435)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addError(Parser.java:257)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:336)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:327)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.returnOrYield(Parser.java:1911)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1208)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1458)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.ifStatement(Parser.java:1293)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1158)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:632)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:562)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.parse(Context.java:2549)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileImpl(Context.java:2480)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1448)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$TimeoutContext.compileString(HtmlUnitContextFactory.java:221)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1436)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$1.doRun(JavaScriptEngine.java:821)
 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
-	... 24 more
-Caused by: java.lang.RuntimeException: java.net.SocketTimeoutException: Read timed out
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2511)
-	at com.gargoylesoftware.htmlunit.html.HtmlForm.submit(HtmlForm.java:194)
-	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLFormElement.submit(HTMLFormElement.java:330)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:215)
-	... 34 more
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:193)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1588)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1510)
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2502)
-	... 41 more
+	... 10 more
 Enclosed exception: 
-java.lang.RuntimeException: Exception invoking submit
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:238)
-	at net.sourceforge.htmlunit.corejs.javascript.FunctionObject.call(FunctionObject.java:423)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1876)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
-	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventHandler.call(EventHandler.java:74)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
-	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
+net.sourceforge.htmlunit.corejs.javascript.EvaluatorException: invalid return (injected script#1)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$HtmlUnitErrorReporter.error(HtmlUnitContextFactory.java:435)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.addError(Parser.java:257)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:336)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:327)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.reportError(Parser.java:320)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.returnOrYield(Parser.java:1911)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1208)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.getNextStatementAfterInlineComments(Parser.java:1458)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.ifStatement(Parser.java:1293)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statementHelper(Parser.java:1158)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.statement(Parser.java:1104)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:632)
+	at net.sourceforge.htmlunit.corejs.javascript.Parser.parse(Parser.java:562)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.parse(Context.java:2549)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileImpl(Context.java:2480)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1448)
+	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory$TimeoutContext.compileString(HtmlUnitContextFactory.java:221)
+	at net.sourceforge.htmlunit.corejs.javascript.Context.compileString(Context.java:1436)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$1.doRun(JavaScriptEngine.java:821)
 	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
 	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
 	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
 	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.fireEvent(EventTarget.java:173)
-	at com.gargoylesoftware.htmlunit.html.DomElement.lambda$fireEvent$0(DomElement.java:1496)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.html.DomElement.fireEvent(DomElement.java:1496)
-	at com.gargoylesoftware.htmlunit.html.DomElement.doClickFireClickEvent(DomElement.java:1164)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1095)
-	at com.gargoylesoftware.htmlunit.html.HtmlAnchor.click(HtmlAnchor.java:87)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1035)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:921)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:898)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:875)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:830)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.compile(JavaScriptEngine.java:796)
+	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.execute(JavaScriptEngine.java:842)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:964)
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScript(HtmlPage.java:929)
 	at htmlunit.Smartvista.RunOper(Smartvista.java)
 	at htmlunit.Smartvista.main(Smartvista.java)
-Caused by: java.lang.RuntimeException: java.net.SocketTimeoutException: Read timed out
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2511)
-	at com.gargoylesoftware.htmlunit.html.HtmlForm.submit(HtmlForm.java:194)
-	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLFormElement.submit(HTMLFormElement.java:330)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:215)
-	... 34 more
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:193)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1588)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1510)
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2502)
-	... 41 more
 == CALLING JAVASCRIPT ==
-function () {
-    [native code]
-}
+if (RichFaces.isTabActive('UserForm:j_id594_lbl')) return false;
+if (!RichFaces.onTabChange(event, 'UserForm:tabPanel', 'UserForm:j_id594')) return false;
+A4J.AJAX.Submit('UserForm', event, {
+    'similarityGroupingId': 'UserForm:j_id594',
+    'parameters': {
+        'UserForm:j_id594': 'UserForm:j_id594'
+    }
+});
+return false;
+this.onclick = null;
 ======= EXCEPTION END ========
-ERROR   2023-11-29 14:51:47,618 [main] htmlunit.Smartvista  - Exception invoking submit
-======= EXCEPTION START ========
-Exception class=[java.lang.RuntimeException]
-com.gargoylesoftware.htmlunit.ScriptException: Exception invoking submit
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:1001)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.fireEvent(EventTarget.java:173)
-	at com.gargoylesoftware.htmlunit.html.DomElement.lambda$fireEvent$0(DomElement.java:1496)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.html.DomElement.fireEvent(DomElement.java:1496)
-	at com.gargoylesoftware.htmlunit.html.DomElement.doClickFireClickEvent(DomElement.java:1164)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1095)
-	at com.gargoylesoftware.htmlunit.html.HtmlAnchor.click(HtmlAnchor.java:87)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1035)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:921)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:898)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:875)
+ERROR   2024-05-02 18:36:02,615 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
 	at htmlunit.Smartvista.RunOper(Smartvista.java)
 	at htmlunit.Smartvista.main(Smartvista.java)
-Caused by: java.lang.RuntimeException: Exception invoking submit
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:238)
-	at net.sourceforge.htmlunit.corejs.javascript.FunctionObject.call(FunctionObject.java:423)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1876)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
-	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventHandler.call(EventHandler.java:74)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
-	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
-	... 24 more
-Caused by: java.lang.RuntimeException: java.net.SocketTimeoutException: Read timed out
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2511)
-	at com.gargoylesoftware.htmlunit.html.HtmlForm.submit(HtmlForm.java:194)
-	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLFormElement.submit(HTMLFormElement.java:330)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:215)
-	... 34 more
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:193)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1588)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1510)
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2502)
-	... 41 more
-Enclosed exception: 
-java.lang.RuntimeException: Exception invoking submit
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:238)
-	at net.sourceforge.htmlunit.corejs.javascript.FunctionObject.call(FunctionObject.java:423)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpretLoop(Interpreter.java:1876)
-	at net.sourceforge.htmlunit.corejs.javascript.Interpreter.interpret(Interpreter.java:1053)
-	at net.sourceforge.htmlunit.corejs.javascript.InterpretedFunction.call(InterpretedFunction.java:89)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventHandler.call(EventHandler.java:74)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.doTopCall(ContextFactory.java:392)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.doTopCall(HtmlUnitContextFactory.java:335)
-	at net.sourceforge.htmlunit.corejs.javascript.ScriptRuntime.doTopCall(ScriptRuntime.java:3916)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$3.doRun(JavaScriptEngine.java:921)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine$HtmlUnitContextAction.run(JavaScriptEngine.java:984)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:928)
-	at com.gargoylesoftware.htmlunit.javascript.JavaScriptEngine.callFunction(JavaScriptEngine.java:900)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2618)
-	at com.gargoylesoftware.htmlunit.html.HtmlPage.executeJavaScriptFunction(HtmlPage.java:2611)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeEventListeners(EventListenersContainer.java:342)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventListenersContainer.executeAtTargetListeners(EventListenersContainer.java:379)
-	at com.gargoylesoftware.htmlunit.javascript.host.event.EventTarget.fireEvent(EventTarget.java:173)
-	at com.gargoylesoftware.htmlunit.html.DomElement.lambda$fireEvent$0(DomElement.java:1496)
-	at net.sourceforge.htmlunit.corejs.javascript.Context.call(Context.java:590)
-	at net.sourceforge.htmlunit.corejs.javascript.ContextFactory.call(ContextFactory.java:484)
-	at com.gargoylesoftware.htmlunit.javascript.HtmlUnitContextFactory.callSecured(HtmlUnitContextFactory.java:349)
-	at com.gargoylesoftware.htmlunit.html.DomElement.fireEvent(DomElement.java:1496)
-	at com.gargoylesoftware.htmlunit.html.DomElement.doClickFireClickEvent(DomElement.java:1164)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1095)
-	at com.gargoylesoftware.htmlunit.html.HtmlAnchor.click(HtmlAnchor.java:87)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:1035)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:921)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:898)
-	at com.gargoylesoftware.htmlunit.html.DomElement.click(DomElement.java:875)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
 	at htmlunit.Smartvista.RunOper(Smartvista.java)
 	at htmlunit.Smartvista.main(Smartvista.java)
-Caused by: java.lang.RuntimeException: java.net.SocketTimeoutException: Read timed out
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2511)
-	at com.gargoylesoftware.htmlunit.html.HtmlForm.submit(HtmlForm.java:194)
-	at com.gargoylesoftware.htmlunit.javascript.host.html.HTMLFormElement.submit(HTMLFormElement.java:330)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-	at java.lang.reflect.Method.invoke(Method.java:498)
-	at net.sourceforge.htmlunit.corejs.javascript.MemberBox.invoke(MemberBox.java:215)
-	... 34 more
-Caused by: java.net.SocketTimeoutException: Read timed out
-	at java.net.SocketInputStream.socketRead0(Native Method)
-	at java.net.SocketInputStream.socketRead(SocketInputStream.java:116)
-	at java.net.SocketInputStream.read(SocketInputStream.java:171)
-	at java.net.SocketInputStream.read(SocketInputStream.java:141)
-	at org.apache.http.impl.io.SessionInputBufferImpl.streamRead(SessionInputBufferImpl.java:137)
-	at org.apache.http.impl.io.SessionInputBufferImpl.fillBuffer(SessionInputBufferImpl.java:153)
-	at org.apache.http.impl.io.SessionInputBufferImpl.readLine(SessionInputBufferImpl.java:280)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:138)
-	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:56)
-	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:259)
-	at org.apache.http.impl.DefaultBHttpClientConnection.receiveResponseHeader(DefaultBHttpClientConnection.java:163)
-	at org.apache.http.impl.conn.CPoolProxy.receiveResponseHeader(CPoolProxy.java:157)
-	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:273)
-	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:125)
-	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:272)
-	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:186)
-	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:89)
-	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
-	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:185)
-	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:72)
-	at com.gargoylesoftware.htmlunit.HttpWebConnection.getResponse(HttpWebConnection.java:193)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponseFromWebConnection(WebClient.java:1588)
-	at com.gargoylesoftware.htmlunit.WebClient.loadWebResponse(WebClient.java:1510)
-	at com.gargoylesoftware.htmlunit.WebClient.download(WebClient.java:2502)
-	... 41 more
-== CALLING JAVASCRIPT ==
-function () {
-    [native code]
-}
-======= EXCEPTION END ========
-INFO    2023-11-29 14:53:41,314 [main] htmlunit.Smartvista  - Run SVFE: main
-WARN    2023-11-29 14:53:44,940 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:53:44,941 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:53:44,942 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:53:44,942 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:53:44,943 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:53:44,943 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:53:44,944 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:53:44,945 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:53:44,946 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:53:44,946 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:53:44,947 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
-WARN    2023-11-29 14:53:44,947 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Ignoring the following declarations in this rule.
-WARN    2023-11-29 14:53:45,024 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:45,071 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:45,185 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:45,253 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:53:45,253 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:53:45,278 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:53:45,278 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:53:45,359 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,181 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,401 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,467 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,520 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,537 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,548 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,576 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,596 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,606 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,616 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,670 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,756 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,767 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,778 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,790 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,801 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,812 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,833 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,846 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,857 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,870 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,882 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,903 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,914 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,951 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,962 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:46,988 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,025 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,064 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,120 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,147 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,199 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,223 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,235 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,261 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,301 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,313 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,331 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,419 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,470 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,512 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,560 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,574 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,585 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,601 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,627 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,721 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:53:47,721 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
-WARN    2023-11-29 14:53:47,739 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
-WARN    2023-11-29 14:53:47,739 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
-WARN    2023-11-29 14:53:47,784 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:47,915 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
-WARN    2023-11-29 14:53:48,452 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
-WARN    2023-11-29 14:53:51,796 [JS executor for com.gargoylesoftware.htmlunit.WebClient@486be205] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
+ERROR   2024-05-02 18:37:58,727 [main] htmlunit.Smartvista  - java.lang.ClassCastException: com.gargoylesoftware.htmlunit.html.HtmlTableDataCell cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlTable
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.lang.ClassCastException: com.gargoylesoftware.htmlunit.html.HtmlTableDataCell cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlTable
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 18:38:42,699 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 18:38:54,866 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 18:42:05,411 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id583]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 18:49:07,568 [main] htmlunit.Smartvista  - java.lang.ClassCastException: com.gargoylesoftware.htmlunit.html.DomElement$1 cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlSpan
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.lang.ClassCastException: com.gargoylesoftware.htmlunit.html.DomElement$1 cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlSpan
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 18:55:43,497 [main] htmlunit.Smartvista  - java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.clickOn(Smartvista.java)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.lang.ClassCastException: com.gargoylesoftware.htmlunit.UnexpectedPage cannot be cast to com.gargoylesoftware.htmlunit.html.HtmlPage
+	at htmlunit.Smartvista.clickOn(Smartvista.java)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 19:07:04,276 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunUpdateAccOst(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunUpdateAccOst(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 19:08:48,667 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunUpdateAccOst(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:tiD:n:0]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunUpdateAccOst(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 19:21:55,303 [main] htmlunit.Smartvista  - java.sql.SQLException: Недопустимый индекс столбца
+	at oracle.jdbc.driver.OraclePreparedStatement.setStringInternal(OraclePreparedStatement.java:5250)
+	at oracle.jdbc.driver.OracleCallableStatement.setString(OracleCallableStatement.java:4664)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setString(OraclePreparedStatementWrapper.java:255)
+	at htmlunit.Smartvista.RunUpdateAccOst(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+java.sql.SQLException: Недопустимый индекс столбца
+	at oracle.jdbc.driver.OraclePreparedStatement.setStringInternal(OraclePreparedStatement.java:5250)
+	at oracle.jdbc.driver.OracleCallableStatement.setString(OracleCallableStatement.java:4664)
+	at oracle.jdbc.driver.OraclePreparedStatementWrapper.setString(OraclePreparedStatementWrapper.java:255)
+	at htmlunit.Smartvista.RunUpdateAccOst(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-05-02 22:02:23,119 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id594]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunUpdateAccOst(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id594]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunUpdateAccOst(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
