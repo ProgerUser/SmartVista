@@ -1,0 +1,94 @@
+INFO    2024-10-31 20:08:12,128 [main] htmlunit.Smartvista  - Run SVFE: main
+WARN    2024-10-31 20:08:14,499 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
+WARN    2024-10-31 20:08:14,500 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:288] Ignoring the following declarations in this rule.
+WARN    2024-10-31 20:08:14,502 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
+WARN    2024-10-31 20:08:14,503 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:825] Ignoring the following declarations in this rule.
+WARN    2024-10-31 20:08:14,505 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
+WARN    2024-10-31 20:08:14,506 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:1718] Ignoring the following declarations in this rule.
+WARN    2024-10-31 20:08:14,507 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
+WARN    2024-10-31 20:08:14,509 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:2637] Ignoring the following declarations in this rule.
+WARN    2024-10-31 20:08:14,511 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
+WARN    2024-10-31 20:08:14,511 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3079] Ignoring the following declarations in this rule.
+WARN    2024-10-31 20:08:14,513 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Error in style rule. (Invalid token "|". Was expecting one of: <S>, <LBRACE>, ".", ":", "[", <COMMA>, <HASH>, <S>.)
+WARN    2024-10-31 20:08:14,514 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/a4j/s/3_3_3.Finalorg/richfaces/renderkit/html/css/extended_classes.xcss/DATB/eAF7sqpgb-jyGdIAFrMEaw__.jsf' [1:3831] Ignoring the following declarations in this rule.
+WARN    2024-10-31 20:08:14,576 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:14,611 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:14,742 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:14,830 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+WARN    2024-10-31 20:08:14,831 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
+WARN    2024-10-31 20:08:14,853 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+WARN    2024-10-31 20:08:14,858 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
+WARN    2024-10-31 20:08:14,955 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:15,705 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:15,915 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,018 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,243 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,269 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,311 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,342 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,377 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,390 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,439 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,511 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,587 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,627 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,641 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,673 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,718 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,764 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,782 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,828 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,882 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,898 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,940 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,960 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:16,982 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,117 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,139 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,173 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,225 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,305 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,349 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,373 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,420 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,450 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,464 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,485 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,532 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,545 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,564 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,648 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,723 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,756 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,883 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,940 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:17,976 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:18,011 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:18,079 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:18,221 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+WARN    2024-10-31 20:08:18,223 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [8:11] Ignoring the whole rule.
+WARN    2024-10-31 20:08:18,249 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Error in pseudo class or element. (Invalid token " ". Was expecting one of: <IDENT>, ":", <FUNCTION_NOT>, <FUNCTION_LANG>, <FUNCTION>.)
+WARN    2024-10-31 20:08:18,250 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS warning: 'http://185.30.105.112:7001/SVFE2/openFacesResources/org/openfaces/renderkit/default-2.0.css' [1356:15] Ignoring the whole rule.
+WARN    2024-10-31 20:08:18,333 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:18,442 [main] com.gargoylesoftware.htmlunit.IncorrectnessListenerImpl  - Obsolete content type encountered: 'text/javascript'.
+WARN    2024-10-31 20:08:18,890 [main] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
+WARN    2024-10-31 20:08:21,978 [JS executor for com.gargoylesoftware.htmlunit.WebClient@578524c3] com.gargoylesoftware.htmlunit.DefaultCssErrorHandler  - CSS error: [1:24] Error in expression. (Invalid token ";". Was expecting one of: <S>, <NUMBER>, "inherit", <IDENT>, <STRING>, "-", <PLUS>, <HASH>, <EMS>, <REM>, <EXS>, <CH>, <VW>, <VH>, <VMIN>, <VMAX>, <LENGTH_PX>, <LENGTH_CM>, <LENGTH_MM>, <LENGTH_IN>, <LENGTH_PT>, <LENGTH_PC>, <LENGTH_Q>, <ANGLE_DEG>, <ANGLE_RAD>, <ANGLE_GRAD>, <ANGLE_TURN>, <TIME_MS>, <TIME_S>, <FREQ_HZ>, <FREQ_KHZ>, <RESOLUTION_DPI>, <RESOLUTION_DPCM>, <PERCENTAGE>, <DIMENSION>, <UNICODE_RANGE>, <URI>, <FUNCTION_CALC>, <FUNCTION_VAR>, <FUNCTION_RGB>, <FUNCTION_HSL>, <FUNCTION>, "progid:".)
+INFO    2024-10-31 20:08:23,872 [main] htmlunit.Smartvista  - Done!
+ERROR   2024-10-31 20:17:22,291 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id96InputDate]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id96InputDate]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+ERROR   2024-10-31 20:18:37,793 [main] htmlunit.Smartvista  - com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id96InputDate]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)
+
+com.gargoylesoftware.htmlunit.ElementNotFoundException: elementName=[*] attributeName=[id] attributeValue=[UserForm:j_id96InputDate]
+	at com.gargoylesoftware.htmlunit.html.HtmlPage.getHtmlElementById(HtmlPage.java:1677)
+	at htmlunit.Smartvista.RunOper(Smartvista.java)
+	at htmlunit.Smartvista.main(Smartvista.java)

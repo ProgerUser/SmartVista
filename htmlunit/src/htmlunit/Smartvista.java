@@ -43,10 +43,18 @@ public class Smartvista {
 	Logger logger = Logger.getLogger(Smartvista.class);
 
 	public static void main(String[] args) {
-
-		Smartvista sfve = new Smartvista();
-		//sfve.RunOper();
-		sfve.RunUpdateAccOst();
+		String dateFrom = "";
+		String dateTo = "";
+		System.out.println(args[0]);
+		System.out.println(args[1]);
+		if (args.length != 0) {
+			dateFrom = args[0];
+			dateTo = args[1];
+			Smartvista sfve = new Smartvista();
+			sfve.RunOper(dateFrom, dateTo);
+		} else {
+			Runtime.getRuntime().exit(0);
+		}
 	}
 
 	/**
@@ -118,7 +126,13 @@ public class Smartvista {
 
 			PreparedStatement prp = conn.prepareStatement("SELECT to_char(DT, 'dd/MM/yyyy') || ' 00:00' DATE_FROM,\r\n"
 					+ "       to_char(DT, 'dd/MM/yyyy') || ' 23:59' DATE_TO,\r\n"
-					+ "       to_char(TR_NUM_FE) TR_NUM_FE\r\n" + "  FROM sbra_smart_tranz t where ost is null\r\n" + "");
+					+ "       to_char(to_date(DT || ' ' || TM, 'dd/MM/yyyy hh24:mi:ss') -\r\n"
+					+ "               5 / 24 / 60,\r\n" + "               'dd/MM/yyyy hh24:mi:ss') date_before,\r\n"
+					+ "       to_char(to_date(DT || ' ' || TM, 'dd/MM/yyyy hh24:mi:ss') +\r\n"
+					+ "               5 / 24 / 60,\r\n" + "               'dd/MM/yyyy hh24:mi:ss') date_after,\r\n"
+					+ "       to_char(TR_NUM_FE) TR_NUM_FE\r\n" + "  FROM sbra_smart_tranz t\r\n"
+					+ " WHERE EXISTS (SELECT NULL FROM plc WHERE plc.cplcnum = CARD_NUMBER)\r\n"
+					+ "   AND ost IS NULL");
 			ResultSet rs = prp.executeQuery();
 
 			while (rs.next()) {
@@ -166,15 +180,18 @@ public class Smartvista {
 				HtmlTableRow contentRow = pageAfterClick.getHtmlElementById("UserForm:tiD:n:0");
 				// Получить страницу
 				HtmlPage pageaAfterClickRow = clickOn(contentRow);
+
+				System.out.println(pageaAfterClickRow.getHtmlPageOrNull());
+
 				// Получить таблицу с атрибутами
-				HtmlTable tableWithAttr = pageaAfterClickRow.getHtmlElementById("UserForm:j_id594_shifted");
+				HtmlTable tableWithAttr = pageaAfterClickRow.getHtmlElementById("UserForm:j_id589_shifted");
 				// Получить страницу
 				HtmlPage pageaAfterClickAccOst = clickOn(tableWithAttr);
 				// Получить ячейку с остатком
-				HtmlTableCell accspan = pageaAfterClickAccOst.getHtmlElementById("UserForm:j_id594");
+				HtmlTableCell accspan = pageaAfterClickAccOst.getHtmlElementById("UserForm:j_id589");
 
 				System.out.println(accspan.asNormalizedText());
-				
+
 				CallableStatement callStmt = conn.prepareCall("{ ? = call sbra_svfe_xlsx2(?,?)}");
 				callStmt.registerOutParameter(1, Types.VARCHAR);
 				callStmt.setString(2, accspan.asNormalizedText());
@@ -205,7 +222,7 @@ public class Smartvista {
 	}
 
 	@SuppressWarnings("resource")
-	public void RunOper() {
+	public void RunOper(String v_dateFrom, String v_dateTo) {
 
 		String log4jConfigFile = System.getProperty("user.dir") + File.separator + "log4j.xml";
 		DOMConfigurator.configure(log4jConfigFile);
@@ -224,14 +241,23 @@ public class Smartvista {
 			logger.error(getStackTrace(e), e);
 		}
 
+		logger.info("Start!");
+
 		String login = prop.getProperty("login_svfe");
 		String password = prop.getProperty("password_svfe");
 
-		String cardNumber_t = "9990080835508297";
-		String dateFrom_t = "01/01/2000 00:00";
-		String dateTo_t = "30/11/2024 23:59";
+		// Date dBefore = new Date(System.currentTimeMillis() - 5 * 60 * 1000);
+		// Date dNow = new Date(System.currentTimeMillis());
+		// SimpleDateFormat ft = new SimpleDateFormat("dd/MM/yyyy HH:mm:ss");
 
-		int timeForWhait = 15000;
+		// String cardNumber_t = "";
+		String dateFrom_t = v_dateFrom;// ft.format(dBefore);//"01/01/2000 00:00";
+		String dateTo_t = v_dateTo;// ft.format(dNow);//"30/11/2024 23:59";
+
+		// System.out.println(dateFrom_t);
+		// System.out.println(dateTo_t);
+
+		int timeForWhait = Integer.valueOf(prop.getProperty("timeForWhait"));
 
 		try {
 
@@ -253,10 +279,12 @@ public class Smartvista {
 			// После входа
 			HtmlPage pageAfterLogon = submitButton.click();
 			// Находим форму
-			HtmlForm userForm = pageAfterLogon.getHtmlElementById(prop.getProperty("site_userform"));
+			///// HtmlForm userForm =
+			// pageAfterLogon.getHtmlElementById(prop.getProperty("site_userform"));
 			/// Поле со карте
-			HtmlTextInput accNumber = userForm.getInputByName(prop.getProperty("site_card"));
-			accNumber.setValueAttribute(cardNumber_t);
+			///// HtmlTextInput accNumber =
+			// userForm.getInputByName(prop.getProperty("site_card"));
+			///// accNumber.setValueAttribute(cardNumber_t);
 			// Дата с
 			HtmlInput dateFrom = pageAfterLogon.getHtmlElementById(prop.getProperty("site_dt1"));
 			dateFrom.setValueAttribute(dateFrom_t);
@@ -278,8 +306,9 @@ public class Smartvista {
 
 			// Обработать файл в вида InputStream
 			try (InputStream xlsx = downloadPage.getInputStream()) {
+
 				// Call Stored Function
-				CallableStatement callStmt = conn.prepareCall("{ ? = call sbra_svfe_xlsx(?)}");
+				CallableStatement callStmt = conn.prepareCall(prop.getProperty("pl_sql_call"));
 				callStmt.registerOutParameter(1, Types.VARCHAR);
 				byte[] buf = ByteStreams.toByteArray(xlsx);
 				callStmt.setBlob(2, new ByteArrayInputStream(buf), buf.length);
@@ -302,7 +331,7 @@ public class Smartvista {
 
 			// Отключить сессию
 			dbDisconnect();
-
+			logger.info("Done!");
 		} catch (Exception e) {
 			dbDisconnect();
 			logger.error(getStackTrace(e), e);

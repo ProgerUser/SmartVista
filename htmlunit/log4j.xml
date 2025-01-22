@@ -22,7 +22,7 @@
 	</appender>
 
 	<root>
-		<priority value="ERROR" />
+		<priority value="INFO" />
 		<appender-ref ref="LogToFile" />
 		<appender-ref ref="LogToConsole" />
 	</root>
